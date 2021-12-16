@@ -42,6 +42,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__illustration {
@@ -160,6 +161,52 @@
   font-weight: normal;
   margin: 0 0 20px;
 		}
+
+
+.feynman {
+  position: relative;
+  background-color: #f2f2f2;
+  height: 890px;
+  z-index: -2;
+    }
+.feynman__title {
+  margin: auto;
+  padding: 0;
+  padding-top: 100px;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+    }
+
+.feynman__subtitle {
+  margin-top: 70px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+    }
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+    }
+
+.feynman__img {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+    }
+
 
 
 /* и элемента с модификатором вида ключ-значение */
