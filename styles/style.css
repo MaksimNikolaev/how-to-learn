@@ -166,7 +166,7 @@
   position: relative;
   background-color: #f2f2f2;
   height: 890px;
-  z-index: -2;
+  z-index: 1;
     }
 .feynman__title {
   margin: auto;
