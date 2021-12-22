@@ -269,21 +269,22 @@
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }
 
 .footer__column {
-  display: flex;
-  justify-content: space-between;
   min-height: 250px;
   margin: 0;
 }
 
 .footer__column_content_copyright {
+  display: flex;
   flex-direction: column;
   flex-basis: 791px;
-
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
